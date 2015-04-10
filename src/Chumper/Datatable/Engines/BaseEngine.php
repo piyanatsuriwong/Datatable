@@ -135,9 +135,8 @@ abstract class BaseEngine {
     function __construct()
     {
         $this->columns = new Collection();
-        $this->config = Config::get('datatable::engine');
-        $this->setExactWordSearch( isset($this->config['exactWordSearch'])? $this->config['exactWordSearch'] : false );
-        $this->setEnableDisplayAll( isset($this->config['enableDisplayAll'])? $this->config['enableDisplayAll'] : false  );
+        $this->config = Config::get('chumper_datatable.engine');
+        $this->setExactWordSearch( $this->config['exactWordSearch'] );
         return $this;
     }
 
