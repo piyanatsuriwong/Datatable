@@ -25,7 +25,7 @@
     },
     "autoload": {
         "psr-0": {
-            "minkbear\\Datatable": "src/"
+            "Chumper\\Datatable": "src/"
         }
     },
     "minimum-stability": "dev",
