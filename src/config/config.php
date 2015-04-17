@@ -132,7 +132,7 @@ return array(
         */
 
         'exactWordSearch' => false,
-        
+
         /*
         |--------------------------------------------------------------------------
         | Enable to display all records.  
