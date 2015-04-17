@@ -34,7 +34,7 @@ return array(
         |
         */
 
-        'id' => '',
+        'id' => 'Datatables',
 
         /*
         |--------------------------------------------------------------------------
@@ -93,7 +93,7 @@ return array(
         |
         */
 
-        'table_view' => 'datatable::template',
+        'table_view' => 'Chumper::template',
 
 
         /*
@@ -106,7 +106,7 @@ return array(
         |
         */
 
-        'script_view' => 'datatable::javascript',
+        'script_view' => 'Chumper::javascript',
 
 
     ),
@@ -132,7 +132,7 @@ return array(
         */
 
         'exactWordSearch' => false,
-        
+
         /*
         |--------------------------------------------------------------------------
         | Enable to display all records.  
